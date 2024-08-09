@@ -1,12 +1,7 @@
-import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+import self from "../img/hugo.JPG"
+import Nina1 from "../img/Nina1.jpg"
+import Back from "../img/Back.jpg"
 
-/* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
-how to make this template work best for you! */
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 /*
@@ -27,29 +22,25 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
+    firstName: "Hugo",
+    lastName: "Mintegui",
     initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    position: "Développeur Front-End & Back-End",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
-            emoji: '☕',
-            text: 'fueled by coffee'
-        },
-        {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'France'
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "Futur Data Analyst"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "mintegui.hugo@gmail.com"
         }
     ],
     socials: [
@@ -82,63 +73,57 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Bonjour ! Je suis développeur web diplômé de la formation OpenClassrooms. Passionné par les nouvelles technologies et l'apprentissage continu, je cherche constamment à approfondir mes compétences, notamment dans le domaine de l'analyse de données",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['Javascript', 'React', 'Git', 'Github', 'Html5', 'Css3', 'Figma', 'MongoDB'],
+            exposedTo: ['Nodejs', 'Python']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
-            emoji: '📖'
+            label: 'Sport',
+            emoji: '⚽'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'Musique',
+            emoji: '♬'
         },
         {
-            label: 'movies',
+            label: 'Film & Serie',
             emoji: '🎥'
         },
         {
-            label: 'cooking',
-            emoji: '🌶'
+            label: 'Jeux vidéo',
+            emoji: '🎮'
         }
-// Same as above, change the emojis to match / relate to your hobbies or interests.
-// You can also remove the emojis if you'd like, I just think they look cute :P
+
     ],
-    portfolio: [ // This is where your portfolio projects will be detailed
+    portfolio: [ 
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+            title: "Projet 1",
+            description: "Nina Carducci, photographe professionnelle, m'a confié une mission d'optimisation de son site web pour améliorer ses performances, son référencement SEO, ainsi que son référencement local et son accessibilité. En plus de ces optimisations, j'ai également été chargé de corriger des bugs dans la galerie d'images. Voici comment j'ai abordé ces défis:",
+            probleme: `**Accélération du Site** :  J'ai optimisé les images, réduit la taille des fichiers CSS et JavaScript, et mis en place une bonne stratégie de mise en cache pour que le site se charge plus vite.`,
+            probleme1: `**Amélioration du SEO** : J'ai retravaillé les balises HTML et intégré des mots-clés locaux pertinents afin d'améliorer la visibilité du site sur les moteurs de recherche.`,
+            probleme2: `**Renforcement du Référencement Local** : J'ai optimisé la page Google My Business, ajouté des mentions locales dans le contenu et inscrit le site sur des annuaires locaux pour mieux cibler les recherches locales.`,
+            probleme3: `**Augmentation de l'Accessibilité** : J'ai amélioré la navigation au clavier, ajouté des descriptions pour les images et vérifié les contrastes de couleur pour rendre le site accessible à tous.`,
+            probleme4: `**Optimisation des Réseaux Sociaux** : J'ai ajouté des balises Open Graph et Twitter Cards pour améliorer l'apparence des partages du site sur les réseaux sociaux.`,
+            probleme5: `**Correction des Bugs dans la Galerie** : J'ai réparé les erreurs de code et les problèmes de chargement dans la galerie d'images pour une meilleure expérience utilisateur.`,
+            solution: `Ces améliorations ont considérablement boosté les performances, le référencement et l'expérience globale du site.`,
+            source: "https://github.com/Hugo31620/Nina-Carducci?tab=readme-ov-file",
+            image: Nina1
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock2
+            title: "Projet 2",
+            description: "J’ai réalisé la refonte du site web de Kasa, une entreprise leader en location d’appartements en France, en transitionnant de ASP.NET à une stack moderne avec React pour le front-end. Chargé de développer l’application front-end. Voici comment j'ai abordé ces défis:",
+            probleme: `**Développement Front-End** : J’ai surmonté les défis d’intégration des composants React et de réactivité du design en étudiant minutieusement les maquettes Figma, en développant les composants selon les meilleures pratiques et en ajustant les styles pour assurer une expérience utilisateur optimale sur tous les appareils.`,
+            probleme1: `**Gestion des Données** : En l'absence d'un back-end opérationnel, j’ai utilisé un fichier JSON pour simuler les données, ce qui m'a permis de développer et tester l’interface utilisateur tout en préparant le front-end pour une intégration future sans modifications majeures.`,
+            probleme2: `**Respect des Guidelines** : Bien que Kasa recommande Create React App, j’ai opté pour Vite en raison de ses meilleures performances. J’ai ajusté le développement en conséquence, tout en respectant les normes de qualité et les meilleures pratiques de Kasa.`,
+            probleme3: `**Exigences de Design et Fonctionnalités** : J’ai utilisé les maquettes Figma pour développer les fonctionnalités, en assurant la navigation circulaire dans la galerie d’images et en mettant en place une gestion intuitive des menus déroulants (Collapse) pour répondre aux exigences spécifiques.`,
+            solution: `En surmontant ces défis, j’ai réussi à développer une application front-end fonctionnelle, conforme aux maquettes et aux exigences de Kasa, tout en respectant les normes de qualité élevées fixées pour le projet.`,
+            source: "https://github.com/Hugo31620/Projet5",
+            image: Back
         },
-        {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3
-        },
-        {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
-        }
+        
     ]
 }

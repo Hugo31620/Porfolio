@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Style from './Navbar.module.scss';
-import Toggler from "./home/Toggler";
+import Toggler from "./acceuil/Toggler";
 import { useLocation } from "react-router-dom";
 import { HashLink as Link } from 'react-router-hash-link';
 import { Box } from "@mui/material";
@@ -9,12 +9,12 @@ import { singlePage } from '../info/Info';
 
 const links = [
     {
-        name: 'Home',
+        name: 'acceuil',
         to: '',
         active: 'home'
     },
     {
-        name: 'About Me',
+        name: 'a propos de moi',
         to: 'about',
         active: 'about'
     },

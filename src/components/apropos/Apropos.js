@@ -1,5 +1,5 @@
 import React from 'react';
-import Style from './About.module.scss';
+import Style from './Apropos.module.scss';
 import Terminal from "./Terminal";
 import {Box} from "@mui/material";
 import {info} from "../../info/Info";
@@ -8,7 +8,7 @@ import {info} from "../../info/Info";
 export default function About({innerRef}) {
     const firstName = info.firstName.toLowerCase()
 
-    function aboutMeText() {
+    function AproposDeMoi() {
         return <>
             <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cat
                 about{firstName} </p>
@@ -52,7 +52,7 @@ export default function About({innerRef}) {
 
     return (
         <Box ref={innerRef} display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'} id={'about'}>
-            <Terminal text={aboutMeText()}/>
+            <Terminal text={AproposDeMoi()}/>
             <Terminal text={skillsText()}/>
             <Terminal text={miscText()}/>
         </Box>

@@ -30,8 +30,13 @@ a:active {
     text-decoration: none;
 }
 
-img {
-    max-width: 100%;
+img { 
+    object-fit: cover;
+    height: 500px;
+    max-height: 500px;
+    width: auto;
+    max-width: 90%;
+    border-radius: 5px;
 }
 
 ul {
