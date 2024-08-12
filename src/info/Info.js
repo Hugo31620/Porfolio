@@ -73,7 +73,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Bonjour ! Je suis développeur web diplômé de la formation OpenClassrooms. Passionné par les nouvelles technologies et l'apprentissage continu, je cherche constamment à approfondir mes compétences, notamment dans le domaine de l'analyse de données",
+    bio: "Bonjour ! Je suis développeur web diplômé de la formation OpenClassrooms depuis aout 2024. Passionné par les nouvelles technologies et l'apprentissage continu, je cherche constamment à approfondir mes compétences, notamment dans le domaine de l'analyse de données",
     skills:
         {
             proficientWith: ['Javascript', 'React', 'Git', 'Github', 'Html5', 'Css3', 'Figma', 'MongoDB'],
