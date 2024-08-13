@@ -19,6 +19,7 @@ export default function Portfolio({ innerRef }) {
               probleme4={project.probleme4}
               probleme5={project.probleme5}
               solution={project.solution}
+              competence={project.competence}
               source={project.source}
             />
           </Grid>

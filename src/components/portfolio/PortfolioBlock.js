@@ -3,7 +3,7 @@ import IconLink from './IconLink';
 import ModalLink from './ModalLink';
 import { Box } from '@mui/material';
 
-function PortfolioBlock({ image, title, source, description, probleme, probleme2, probleme3, probleme4, probleme5, solution }) {
+function PortfolioBlock({ image, title, source, description, probleme, probleme2, probleme3, probleme4, probleme5, solution, competence }) {
   return (
     <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" mb={4}>
       <Box
@@ -25,7 +25,7 @@ function PortfolioBlock({ image, title, source, description, probleme, probleme2
         py="2rem"
       >
         <Box p={1} border="2px solid black" borderRadius="25px">
-          <ModalLink description={description} probleme={probleme} probleme2={probleme2} probleme3={probleme3} probleme4={probleme4} probleme5={probleme5} solution={solution} title="Description" icon="fa fa-folder-open" />
+          <ModalLink description={description} probleme={probleme} probleme2={probleme2} probleme3={probleme3} probleme4={probleme4} probleme5={probleme5} solution={solution} competence={competence} title="Description" icon="fa fa-folder-open" />
         </Box>
         <Box p={1} border="2px solid black" borderRadius="25px">
           <IconLink link={source} title="Code Github" icon="fa fa-code" />

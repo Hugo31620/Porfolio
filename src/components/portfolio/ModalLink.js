@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Modal, Box, Typography, Button } from '@mui/material';
 
-function ModalLink({ description, probleme, probleme2, probleme3, probleme4, probleme5, solution, title, icon }) {
+function ModalLink({ description, probleme, probleme2, probleme3, probleme4, probleme5, solution, competence, title, icon }) {
     const [open, setOpen] = useState(false);
 
     const handleOpen = () => setOpen(true);
@@ -55,6 +55,9 @@ function ModalLink({ description, probleme, probleme2, probleme3, probleme4, pro
                     </Typography>
                     <Typography id="modal-description" sx={{ mt: 2 }}>
                         {solution}
+                    </Typography>
+                    <Typography id="modal-description" sx={{ mt: 2 }}>
+                        {competence}
                     </Typography>
                     <Button onClick={handleClose} sx={{ mt: 2 }}>
                         Fermer

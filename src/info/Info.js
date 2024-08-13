@@ -109,6 +109,7 @@ export const info = {
             probleme3: `**Augmentation de l'Accessibilité** : J'ai amélioré la navigation au clavier, ajouté des descriptions pour les images et vérifié les contrastes de couleur pour rendre le site accessible à tous.`,
             probleme4: `**Optimisation des Réseaux Sociaux** : J'ai ajouté des balises Open Graph et Twitter Cards pour améliorer l'apparence des partages du site sur les réseaux sociaux.`,
             probleme5: `**Correction des Bugs dans la Galerie** : J'ai réparé les erreurs de code et les problèmes de chargement dans la galerie d'images pour une meilleure expérience utilisateur.`,
+            competence: `COMPETENCES: SEO et Accessibilité, Chrome DevTools`,
             solution: `Ces améliorations ont considérablement boosté les performances, le référencement et l'expérience globale du site.`,
             source: "https://github.com/Hugo31620/Nina-Carducci?tab=readme-ov-file",
             image: Nina1
@@ -121,6 +122,7 @@ export const info = {
             probleme2: `**Respect des Guidelines** : Bien que Kasa recommande Create React App, j’ai opté pour Vite en raison de ses meilleures performances. J’ai ajusté le développement en conséquence, tout en respectant les normes de qualité et les meilleures pratiques de Kasa.`,
             probleme3: `**Exigences de Design et Fonctionnalités** : J’ai utilisé les maquettes Figma pour développer les fonctionnalités, en assurant la navigation circulaire dans la galerie d’images et en mettant en place une gestion intuitive des menus déroulants (Collapse) pour répondre aux exigences spécifiques.`,
             solution: `En surmontant ces défis, j’ai réussi à développer une application front-end fonctionnelle, conforme aux maquettes et aux exigences de Kasa, tout en respectant les normes de qualité élevées fixées pour le projet.`,
+            competence: `COMPETENCES: React, React Router, Create React App, Node.js, JavaScript, SASS`,
             source: "https://github.com/Hugo31620/Projet5",
             image: Back
         },
